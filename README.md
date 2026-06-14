@@ -42,7 +42,7 @@ the Teleconnect customer dataset (7,043 records, 21 features).
 | `08_rmsprop_learning_curves.png` | RMSprop training and validation curves |
 | `09_tuned_sgd_learning_curves.png` | Tuned SGD training and validation curves |
 | `10_confusion_matrices.png` | All four confusion matrices side by side |
-| `11_model_comparison.png` | Final performance comparison — all optimizers |
+| `11_model_comparison.png` | Final performance comparison - all optimizers |
 
 ---
 
