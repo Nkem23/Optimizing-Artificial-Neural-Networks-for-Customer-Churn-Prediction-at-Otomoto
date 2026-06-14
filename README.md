@@ -13,7 +13,7 @@ the Teleconnect customer dataset (7,043 records, 21 features).
 ### Code
 | File | Description |
 |---|---|
-| `Otomoto Marketing Segmentation Model Optimization.ipynb` | Main Jupyter Notebook — full pipeline from EDA to model evaluation |
+| `Otomoto Marketing Segmentation Model Optimization.ipynb` | Main Jupyter Notebook - full pipeline from EDA to model evaluation |
 | `Otomoto Marketing Segmentation Model Optimization 1.py` | Python script version of the same pipeline |
 
 ### Dataset
@@ -67,18 +67,18 @@ the Teleconnect customer dataset (7,043 records, 21 features).
 ---
 
 ## Best Performing Model
-**RMSprop** — 74% accuracy, F1-score 0.62, fewest false positives (297).  
+**RMSprop** - 74% accuracy, F1-score 0.62, fewest false positives (297).  
 Recommended for deployment as Otomoto's primary churn prediction tool.
 
 ---
 
 ## Pipeline Summary
 1. Exploratory Data Analysis (EDA)
-2. Data Preprocessing — encoding, scaling, imputation
-3. Train/Test Split — 80/20 stratified
-4. Baseline ANN — SGD optimizer
-5. Optimization — Adam, RMSprop, Tuned SGD
-6. Evaluation — accuracy, precision, recall, F1-score, loss
+2. Data Preprocessing - encoding, scaling, imputation
+3. Train/Test Split - 80/20 stratified
+4. Baseline ANN - SGD optimizer
+5. Optimization - Adam, RMSprop, Tuned SGD
+6. Evaluation - accuracy, precision, recall, F1-score, loss
 7. Model saving
 
 ---
